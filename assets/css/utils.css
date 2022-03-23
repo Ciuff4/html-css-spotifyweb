@@ -1,0 +1,31 @@
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.d-flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    color: #7B7D81;
+}
+
+/* debug */
+.bug{
+    background-color: rgba(225,0,0,0.6);
+}
