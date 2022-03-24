@@ -5,3 +5,13 @@
         width: calc(100% / 4);
     }
 }
+
+
+/* m-query for small tablets */
+
+@media  screen and (max-width: 550px) {
+    .song{
+        width: calc(100% / 2);
+    }
+}
+
