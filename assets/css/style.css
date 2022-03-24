@@ -12,11 +12,19 @@ aside{
     justify-content: space-between;
 }
 
+.small-logo{
+    display: none;
+}
+
 aside .top-aside .logo ,
 aside .top-aside .menu ,
 aside .top-aside .playlist{
     margin-left: -2px;
     padding: 20px 10px 0px 10px;
+}
+
+aside .top-aside .menu ul li{
+    border: 2px solid black;
 }
 
 aside .top-aside .menu ul li,
@@ -34,14 +42,8 @@ aside .top-aside .menu{
     overflow-x: hidden;
 }
 
-.playlist h4{
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-}
-
 .playlist ul li:first-child{
-    padding: 10px 0;
+    color: white;
 }
 
 .bottom-aside .apps{
@@ -62,7 +64,7 @@ aside .top-aside .menu{
     overflow: hidden;
 }
 
-.bottom-aside .profile p{
+.bottom-aside .profile span{
     padding: 0 5px;
     font-weight: bold;
     font-size: 14px;
