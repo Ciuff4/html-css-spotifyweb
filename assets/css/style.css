@@ -119,6 +119,7 @@ nav{
 
 section nav ul{
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 section nav ul li{
@@ -287,3 +288,5 @@ footer{
 }
 
 /* /FOOTER RIGHT */
+
+
