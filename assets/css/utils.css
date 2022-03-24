@@ -21,8 +21,8 @@ ul{
     list-style: none;
 }
 
-p{
-    color: #7B7D81;
+li:hover{
+    color: white;
 }
 
 /* debug */
