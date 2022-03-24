@@ -263,9 +263,21 @@ footer{
 
 .time-line{
     width: 300px;
-    height: 1px;
-    border: 2px solid #74767B;
-    border-radius: 10px;
+    height: 3px;
+    background-color: #74767B;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.time-flow{
+    height: 100%;
+    width: 40%;
+    background-color: #88D612;
+    display: none;
+}
+
+.time-line:hover .time-flow{
+    display:block;
 }
 
 .ftr-center .time span{
