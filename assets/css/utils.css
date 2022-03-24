@@ -25,6 +25,10 @@ li:hover{
     color: white;
 }
 
+.active{
+    border-left: 2px solid #B9FF3E;
+}
+
 /* SECTION */
 
 .albums{
