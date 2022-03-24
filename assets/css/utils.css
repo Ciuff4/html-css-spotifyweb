@@ -25,7 +25,13 @@ li:hover{
     color: white;
 }
 
-/* debug */
-.bug{
-    background-color: rgba(225,0,0,0.6);
+/* SECTION */
+
+.albums{
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+h2{
+    padding: 10px 0;
 }

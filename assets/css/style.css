@@ -130,7 +130,6 @@ section nav ul li{
 /* RECENTLY PLAYED */
 
 .recently-played{
-    flex-wrap: wrap;
     padding-top: 35px;
 }
 
@@ -166,11 +165,34 @@ section nav ul li{
     display: block;
 }
 
-.cover h4{
+.song h4{
     color: white;
+    padding: 10px 0;
+
 }
 
 /* /RECENTLY PLAYED */
+
+/* FOR JOHN */
+
+.for-john{
+    padding-top: 35px;
+}
+
+/* /FOR JOHN */
+
+/* POPULAR */
+
+.popular{
+    padding-top: 35px;
+}
+
+.popular .albums .song .cover{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* /POPULAR */
 
 /* FOOTER */
 footer{
