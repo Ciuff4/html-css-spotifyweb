@@ -2,11 +2,19 @@ main{
     height: calc(100vh - 60px);
 }
 
+/* ASIDE */
+
 aside{
     width: 150px;
     height: 100%;
     background-color: black;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
+
+/* /ASIDE */
 
 /* SECTION */
 
@@ -16,6 +24,8 @@ section{
     overflow-y: auto;
     background-color: #141922;
 }
+
+/* /SECTION */
 
 /* TOP-SECTION */
 
@@ -97,6 +107,7 @@ footer{
 .ftr-center{
     line-height: 30px;
     font-size: 17px;
+    text-align: center;
 }
 
 .ftr-center div i{
@@ -108,4 +119,37 @@ footer{
     font-size: 25px;
 }
 
+.ftr-center .time{
+    align-items: center;
+    font-size: 14px;
+}
+
+.time-line{
+    width: 300px;
+    height: 1px;
+    border: 2px solid #74767B;
+    border-radius: 10px;
+}
+
+.ftr-center .time span{
+    padding: 0 20px;
+}
+
 /* /FOOTER CENTER */
+
+/* FOOTER RIGHT */
+
+.ftr-right{
+    align-items: center;
+}
+
+.ftr-right .time-line{
+    width: 110px;
+    margin-right: 10px;
+} 
+
+.ftr-right i{
+    padding: 0 5px;
+}
+
+/* /FOOTER RIGHT */
